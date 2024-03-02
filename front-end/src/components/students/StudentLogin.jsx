@@ -5,6 +5,7 @@ const formSchema = z.object({
   email: z.string().email("Email is required and must be valid").min(8).max(30),
   password: z.string().nonempty('required').min(6).max(30),
 });
+import { axiosClient } from '../../api/axios';
 const zodResolver = async (values) => {
   try {
     const validatedData = formSchema.parse(values);
@@ -34,9 +35,15 @@ export default function StudentLogin() {
   } = useForm({
     resolver: zodResolver,
   });
-     const onSubmit = (data) => {
-    console.log(data);
-    // Perform your submission logic here
+    const onSubmit =   async (values) => {
+  try {
+    const response = await axiosClient.post('/login', values);
+    // Handle the response
+    console.log(response.data);
+  } catch (error) {
+    // Handle errors
+    console.error(error);
+  }
   };
   return <>
   <div className="w-full max-w-xs container mx-auto">

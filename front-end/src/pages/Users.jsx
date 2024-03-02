@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Users() {
   return (
-    <div>Users</div>
+    <h1 className={'text-3xl'}>Hi from  Users page </h1>
   )
 }

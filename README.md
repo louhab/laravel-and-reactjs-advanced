@@ -1,6 +1,12 @@
 # School Management System
 
-This is a School Management System built with Laravel and ReactJS. It aims to streamline various processes within a school environment, including student management, class schedules, grades, and more.
+This is a School Management System built with Laravel and ReactJS.
+It aims to streamline various processes within a school environment, 
+including student management, class schedules, grades, and more.
+
+I used zod for form validation
+
+I used FormHook also
 
 ## Table of Contents
 - [Features](#features)
@@ -25,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
 - Composer
 - Node.js >= 12
 - npm or yarn
-- MySQL or another compatible database
+- Postgress or another compatible database
 
 ## Installation
 
