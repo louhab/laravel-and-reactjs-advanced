@@ -32,6 +32,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js >= 12
 - npm or yarn
 - Postgress or another compatible database
+- PgAdmin
 
 ## Installation
 
