@@ -46,7 +46,7 @@ export default function StudentLogin() {
   }
   };
   return <>
-  <div className="w-full max-w-xs container mx-auto">
+  <div className=" max-w-xs  mx-auto w-full">
   <form className="w-full max-w-sm" onSubmit={handleSubmit(onSubmit)}>
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
@@ -72,12 +72,11 @@ export default function StudentLogin() {
     </div>
   </div>
   <div className="md:flex md:items-center">
-    <div className="md:w-1/3"></div>
     <div className="md:w-2/3">
-      <input type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" />
+      <input type="submit" className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" />
     </div>
   </div>
-</form>
+   </form>
 </div>
 </>
 }
