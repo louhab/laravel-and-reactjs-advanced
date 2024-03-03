@@ -5,16 +5,14 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "7.4.21",
+        "php": "^7.3|^8.0",
         "doctrine/dbal": "^3.8",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
-        "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
-        "laravel/breeze": "^1.29",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
@@ -67,6 +65,9 @@
 	"platform":{
 		"php":"7.4.21"
 		}
+	},
+    "config": {
+		"process-timeout": 0
 	},
     "minimum-stability": "stable",
     "prefer-stable": true
