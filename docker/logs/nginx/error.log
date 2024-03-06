@@ -8,3 +8,62 @@
 2024/03/03 15:11:12 [notice] 1#1: start worker process 21
 2024/03/03 15:11:12 [notice] 1#1: start worker process 22
 2024/03/03 15:11:12 [notice] 1#1: start worker process 23
+2024/03/03 16:02:10 [notice] 1#1: using the "epoll" event method
+2024/03/03 16:02:10 [notice] 1#1: nginx/1.24.0
+2024/03/03 16:02:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/03 16:02:10 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2024/03/03 16:02:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/03 16:02:10 [notice] 1#1: start worker processes
+2024/03/03 16:02:10 [notice] 1#1: start worker process 19
+2024/03/03 16:02:10 [notice] 1#1: start worker process 20
+2024/03/03 16:02:10 [notice] 1#1: start worker process 21
+2024/03/03 16:02:10 [notice] 1#1: start worker process 22
+2024/03/03 16:11:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/03 16:11:37 [notice] 19#19: gracefully shutting down
+2024/03/03 16:11:37 [notice] 20#20: gracefully shutting down
+2024/03/03 16:11:37 [notice] 22#22: gracefully shutting down
+2024/03/03 16:11:37 [notice] 21#21: gracefully shutting down
+2024/03/03 16:11:37 [notice] 22#22: exiting
+2024/03/03 16:11:37 [notice] 20#20: exiting
+2024/03/03 16:11:37 [notice] 22#22: exit
+2024/03/03 16:11:37 [notice] 20#20: exit
+2024/03/03 16:11:37 [notice] 19#19: exiting
+2024/03/03 16:11:37 [notice] 19#19: exit
+2024/03/03 16:11:37 [notice] 21#21: exiting
+2024/03/03 16:11:37 [notice] 21#21: exit
+2024/03/03 16:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2024/03/03 16:11:38 [notice] 1#1: worker process 19 exited with code 0
+2024/03/03 16:11:38 [notice] 1#1: worker process 20 exited with code 0
+2024/03/03 16:11:38 [notice] 1#1: worker process 21 exited with code 0
+2024/03/03 16:11:38 [notice] 1#1: worker process 22 exited with code 0
+2024/03/03 16:11:39 [notice] 1#1: exit
+2024/03/03 16:12:11 [notice] 1#1: using the "epoll" event method
+2024/03/03 16:12:11 [notice] 1#1: nginx/1.24.0
+2024/03/03 16:12:11 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/03 16:12:11 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2024/03/03 16:12:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/03 16:12:11 [notice] 1#1: start worker processes
+2024/03/03 16:12:11 [notice] 1#1: start worker process 19
+2024/03/03 16:12:11 [notice] 1#1: start worker process 20
+2024/03/03 16:12:11 [notice] 1#1: start worker process 21
+2024/03/03 16:12:11 [notice] 1#1: start worker process 22
+2024/03/04 18:46:12 [notice] 1#1: using the "epoll" event method
+2024/03/04 18:46:12 [notice] 1#1: nginx/1.24.0
+2024/03/04 18:46:12 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/04 18:46:12 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2024/03/04 18:46:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/04 18:46:12 [notice] 1#1: start worker processes
+2024/03/04 18:46:12 [notice] 1#1: start worker process 20
+2024/03/04 18:46:12 [notice] 1#1: start worker process 21
+2024/03/04 18:46:12 [notice] 1#1: start worker process 22
+2024/03/04 18:46:12 [notice] 1#1: start worker process 23
+2024/03/04 20:21:50 [notice] 1#1: using the "epoll" event method
+2024/03/04 20:21:50 [notice] 1#1: nginx/1.24.0
+2024/03/04 20:21:50 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/04 20:21:50 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2024/03/04 20:21:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/04 20:21:50 [notice] 1#1: start worker processes
+2024/03/04 20:21:50 [notice] 1#1: start worker process 19
+2024/03/04 20:21:50 [notice] 1#1: start worker process 20
+2024/03/04 20:21:50 [notice] 1#1: start worker process 21
+2024/03/04 20:21:50 [notice] 1#1: start worker process 22
